@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: cd1029e3e0631da479dbaf983f1ed677
+timeCreated: 1473642909
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: EarLeft
+    100004: EarLeft_end
+    100006: EarRight
+    100008: EarRight_end
+    100010: Elephant
+    100012: //RootNode
+    100014: ElephantLOD1
+    100016: ElephantLOD2
+    100018: Head
+    100020: LegL1
+    100022: LegL2
+    100024: LegL2_end
+    100026: LegL3
+    100028: LegL4
+    100030: LegL4_end
+    100032: LegR1
+    100034: LegR2
+    100036: LegR2_end
+    100038: LegR3
+    100040: LegR4
+    100042: LegR4_end
+    100044: SkeletonElephant
+    100046: Tail
+    100048: Tail_end
+    100050: Trunk1
+    100052: Trunk2
+    100054: Trunk3
+    100056: Trunk4
+    100058: Trunk5
+    100060: Trunk5_end
+    400000: Body
+    400002: EarLeft
+    400004: EarLeft_end
+    400006: EarRight
+    400008: EarRight_end
+    400010: Elephant
+    400012: //RootNode
+    400014: ElephantLOD1
+    400016: ElephantLOD2
+    400018: Head
+    400020: LegL1
+    400022: LegL2
+    400024: LegL2_end
+    400026: LegL3
+    400028: LegL4
+    400030: LegL4_end
+    400032: LegR1
+    400034: LegR2
+    400036: LegR2_end
+    400038: LegR3
+    400040: LegR4
+    400042: LegR4_end
+    400044: SkeletonElephant
+    400046: Tail
+    400048: Tail_end
+    400050: Trunk1
+    400052: Trunk2
+    400054: Trunk3
+    400056: Trunk4
+    400058: Trunk5
+    400060: Trunk5_end
+    4300000: ElephantLOD2
+    4300002: ElephantLOD1
+    4300004: Elephant
+    7400000: attack
+    7400002: call
+    7400004: death
+    7400006: eat
+    7400008: hurt
+    7400010: idle
+    7400012: run
+    7400014: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Elephant
+    13700002: ElephantLOD1
+    13700004: ElephantLOD2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: SkeletonElephant|attack
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: call
+      takeName: SkeletonElephant|call
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: SkeletonElephant|death
+      firstFrame: 0
+      lastFrame: 77
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: SkeletonElephant|eat
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: SkeletonElephant|hurt
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: SkeletonElephant|idle
+      firstFrame: 0
+      lastFrame: 221
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: SkeletonElephant|run
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: SkeletonElephant|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elephant
+        weight: 1
+      - path: ElephantLOD1
+        weight: 1
+      - path: ElephantLOD2
+        weight: 1
+      - path: SkeletonElephant
+        weight: 1
+      - path: SkeletonElephant/Body
+        weight: 1
+      - path: SkeletonElephant/Body/Head
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight
+        weight: 1
+      - path: SkeletonElephant/Body/Head/EarRight/EarRight_end
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5
+        weight: 1
+      - path: SkeletonElephant/Body/Head/Trunk1/Trunk2/Trunk3/Trunk4/Trunk5/Trunk5_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2
+        weight: 1
+      - path: SkeletonElephant/Body/LegL1/LegL2/LegL2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4
+        weight: 1
+      - path: SkeletonElephant/Body/LegL3/LegL4/LegL4_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2
+        weight: 1
+      - path: SkeletonElephant/Body/LegR1/LegR2/LegR2_end
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4
+        weight: 1
+      - path: SkeletonElephant/Body/LegR3/LegR4/LegR4_end
+        weight: 1
+      - path: SkeletonElephant/Body/Tail
+        weight: 1
+      - path: SkeletonElephant/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.05
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: 9a4fab3d66edbe44985a86793a9ca521
+timeCreated: 1473632408
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BodyHorse
+    100002: HeadHorse
+    100004: Left earHorse
+    100006: Left earHorse_end
+    100008: Left legHorse1
+    100010: Left legHorse2
+    100012: Left legHorse3
+    100014: Left legHorse3_end
+    100016: NeckHorse
+    100018: PosteriorLeftlegHorse1
+    100020: PosteriorLeftlegHorse2
+    100022: PosteriorLeftlegHorse3
+    100024: PosteriorLeftlegHorse3_end
+    100026: PosteriorRighr legHorse1
+    100028: PosteriorRighr legHorse2
+    100030: PosteriorRighr legHorse3
+    100032: PosteriorRighr legHorse3_end
+    100034: Righr legHorse1
+    100036: Righr legHorse2
+    100038: Righr legHorse3
+    100040: Righr legHorse3_end
+    100042: Right earHorse
+    100044: Right earHorse_end
+    100046: RightHorse
+    100048: SkeletonZebra
+    100050: TailHorse1
+    100052: TailHorse2
+    100054: TailHorse3
+    100056: TailHorse4
+    100058: TailHorse5
+    100060: TailHorse5_end
+    100062: Zebra
+    100064: //RootNode
+    100066: ZebraLOD1
+    100068: ZebraLOD2
+    400000: BodyHorse
+    400002: HeadHorse
+    400004: Left earHorse
+    400006: Left earHorse_end
+    400008: Left legHorse1
+    400010: Left legHorse2
+    400012: Left legHorse3
+    400014: Left legHorse3_end
+    400016: NeckHorse
+    400018: PosteriorLeftlegHorse1
+    400020: PosteriorLeftlegHorse2
+    400022: PosteriorLeftlegHorse3
+    400024: PosteriorLeftlegHorse3_end
+    400026: PosteriorRighr legHorse1
+    400028: PosteriorRighr legHorse2
+    400030: PosteriorRighr legHorse3
+    400032: PosteriorRighr legHorse3_end
+    400034: Righr legHorse1
+    400036: Righr legHorse2
+    400038: Righr legHorse3
+    400040: Righr legHorse3_end
+    400042: Right earHorse
+    400044: Right earHorse_end
+    400046: RightHorse
+    400048: SkeletonZebra
+    400050: TailHorse1
+    400052: TailHorse2
+    400054: TailHorse3
+    400056: TailHorse4
+    400058: TailHorse5
+    400060: TailHorse5_end
+    400062: Zebra
+    400064: //RootNode
+    400066: ZebraLOD1
+    400068: ZebraLOD2
+    4300000: ZebraLOD2
+    4300002: ZebraLOD1
+    4300004: Zebra
+    7400000: death
+    7400002: eat
+    7400004: hurt
+    7400006: SkeletonZebra|hurt.001
+    7400008: SkeletonZebra|hurt.002
+    7400010: idle
+    7400012: kicks
+    7400014: run
+    7400016: walk
+    7400018: ZebraLOD2|hurt.002
+    7400020: ZebraLOD1|hurt.001
+    7400022: Zebra|hurt
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Zebra
+    13700002: ZebraLOD1
+    13700004: ZebraLOD2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: SkeletonZebra|death
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: SkeletonZebra|eat
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: SkeletonZebra|hurt
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: SkeletonZebra|idle
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kicks
+      takeName: SkeletonZebra|kicks
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: SkeletonZebra|run
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: SkeletonZebra|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonZebra
+        weight: 1
+      - path: SkeletonZebra/RightHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Left legHorse1/Left legHorse2/Left
+          legHorse3/Left legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Left earHorse/Left
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/NeckHorse/HeadHorse/Right earHorse/Right
+          earHorse_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/BodyHorse/Righr legHorse1/Righr legHorse2/Righr
+          legHorse3/Righr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorLeftlegHorse1/PosteriorLeftlegHorse2/PosteriorLeftlegHorse3/PosteriorLeftlegHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/PosteriorRighr legHorse1/PosteriorRighr legHorse2/PosteriorRighr
+          legHorse3/PosteriorRighr legHorse3_end
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5
+        weight: 1
+      - path: SkeletonZebra/RightHorse/TailHorse1/TailHorse2/TailHorse3/TailHorse4/TailHorse5/TailHorse5_end
+        weight: 1
+      - path: Zebra
+        weight: 1
+      - path: ZebraLOD1
+        weight: 1
+      - path: ZebraLOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

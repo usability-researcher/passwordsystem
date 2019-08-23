@@ -1,0 +1,18 @@
+Primary Goals
+
+1. If the user types in the 3 characaters wrong in 2nd tour, have them try again. if they still fail, video should start the same 3 object sequence again.
+2. in 3rd tour, instead of asking for input after every 3 chars, have them enter the characters after every 6 objects are shown. if they make a mistake, give them another attempt. if they still fail, start again from the sequence.
+3. All objects when placed at their position should be oversized, to make them stand out in that location. currently all objects are of decent size at their position, maybe they can be bigger
+4. When the objects float up and zoom in on screen, maybe they can be even bigger in size
+
+Secondary Goals
+1. More text instructions can be shown in the game, to let the user know what is expected of them.
+2. In 1st tour, the arrow above locations bounces 7 times. It would be better to have it bounce 3 times
+3. The camera navigation from bathroom to other room starts with turning. Can we instead back out of bathroom instead of turning?
+4. The shoe rack next to door needs to be moved
+5. Font for object names has very little spacing b/w the letters. Also, the font size should be much bigger
+6. Can the lighting be increased for objects?
+7. Bedroom and living room currently have too much detail.. We need to remove a lot of stuff from these rooms
+8. For some objects, when they are shown on screen, they don't start with face towards the user. E.g: The Queen card starts rotating from the back.. Can we always have the object start rotating with its face in front at start.
+9. Some objects need to be replaced.
+10. Most items still rotate with their face on top.. Can we have all objects with their face towards the user and make them rotate at that angle only?

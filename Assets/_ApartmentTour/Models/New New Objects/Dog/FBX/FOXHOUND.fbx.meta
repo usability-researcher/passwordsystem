@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 8dab7a8236069b344a55f782d5090bd5
+timeCreated: 1489330965
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape
+    100004: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart0
+    100006: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart1
+    100008: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart2
+    100010: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart3
+    400000: //RootNode
+    400002: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape
+    400004: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart0
+    400006: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart1
+    400008: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart2
+    400010: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT TUNG
+      TEETH  2.Shape_MeshPart3
+    2300000: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart0
+    2300002: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart1
+    2300004: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart2
+    2300006: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart3
+    3300000: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart0
+    3300002: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart1
+    3300004: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart2
+    3300006: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart3
+    4300000: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart0
+    4300002: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart1
+    4300004: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart2
+    4300006: Hounddog-base-5_Mouth_open-1-14-EyesSockets-Eyes3-Nose_-1-17 UV TEXT
+      TUNG TEETH  2.Shape_MeshPart3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

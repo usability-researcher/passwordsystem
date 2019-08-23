@@ -1,0 +1,965 @@
+fileFormatVersion: 2
+guid: 9e5b7adb8088722498f601c8be74400f
+timeCreated: 1473632410
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Body2
+    100004: Crocodile
+    100006: //RootNode
+    100008: CrocodileLOD1
+    100010: CrocodileLOD2
+    100012: CrocodileSkeleton
+    100014: jaw1
+    100016: jaw1_end
+    100018: jaw2
+    100020: jaw2_end
+    100022: LegLeft1
+    100024: LegLeftP1
+    100026: LegRight1
+    100028: LegRightP1
+    100030: PawLeft2
+    100032: PawLeftP2
+    100034: PawRight2
+    100036: PawRightP2
+    100038: Tail1
+    100040: Tail2
+    100042: Tail3
+    100044: Tail3.003
+    100046: Tail3.003_end
+    100048: Tail3_end
+    100050: TailP
+    100052: TailP_end
+    100054: TailR4
+    100056: TailR4_end
+    100058: TailRight1
+    100060: TailRight1_end
+    400000: Body
+    400002: Body2
+    400004: Crocodile
+    400006: //RootNode
+    400008: CrocodileLOD1
+    400010: CrocodileLOD2
+    400012: CrocodileSkeleton
+    400014: jaw1
+    400016: jaw1_end
+    400018: jaw2
+    400020: jaw2_end
+    400022: LegLeft1
+    400024: LegLeftP1
+    400026: LegRight1
+    400028: LegRightP1
+    400030: PawLeft2
+    400032: PawLeftP2
+    400034: PawRight2
+    400036: PawRightP2
+    400038: Tail1
+    400040: Tail2
+    400042: Tail3
+    400044: Tail3.003
+    400046: Tail3.003_end
+    400048: Tail3_end
+    400050: TailP
+    400052: TailP_end
+    400054: TailR4
+    400056: TailR4_end
+    400058: TailRight1
+    400060: TailRight1_end
+    4300000: CrocodileLOD2
+    4300002: CrocodileLOD1
+    4300004: Crocodile
+    7400000: attack
+    7400002: attackwater
+    7400004: death
+    7400006: deathwater
+    7400008: hurt
+    7400010: idle
+    7400012: CrocodileSkeleton|idle.001
+    7400014: CrocodileSkeleton|idle.002
+    7400016: Idlewater
+    7400018: runwater
+    7400020: walk
+    7400022: CrocodileLOD2|idle.002
+    7400024: CrocodileLOD1|idle.001
+    7400026: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Crocodile
+    13700002: CrocodileLOD1
+    13700004: CrocodileLOD2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: CrocodileSkeleton|attack
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackwater
+      takeName: CrocodileSkeleton|attackwater
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: CrocodileSkeleton|death
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: deathwater
+      takeName: CrocodileSkeleton|deathwater
+      firstFrame: 0
+      lastFrame: 147
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: CrocodileSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: CrocodileSkeleton|idle
+      firstFrame: 0
+      lastFrame: 201
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idlewater
+      takeName: CrocodileSkeleton|Idlewater
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runwater
+      takeName: CrocodileSkeleton|runwater
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: CrocodileSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crocodile
+        weight: 1
+      - path: CrocodileLOD1
+        weight: 1
+      - path: CrocodileLOD2
+        weight: 1
+      - path: CrocodileSkeleton
+        weight: 1
+      - path: CrocodileSkeleton/Body
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw1/jaw1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Body2/jaw2/jaw2_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeft1/PawLeft2/Tail3.003/Tail3.003_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegLeftP1/PawLeftP2/TailP/TailP_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRight1/PawRight2/TailR4/TailR4_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1
+        weight: 1
+      - path: CrocodileSkeleton/Body/LegRightP1/PawRightP2/TailRight1/TailRight1_end
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CrocodileSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

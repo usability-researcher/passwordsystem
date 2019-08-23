@@ -1,0 +1,762 @@
+fileFormatVersion: 2
+guid: 51a4757217e30644dbf7b66a3dde65d1
+timeCreated: 1473632405
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Head
+    100004: LeftLeg1
+    100006: LeftLeg2
+    100008: LeftPaw1
+    100010: LeftPaw1_end
+    100012: Mouth
+    100014: Mouth_end
+    100016: Neck
+    100018: Panther
+    100020: //RootNode
+    100022: PantherLOD1
+    100024: PantherLOD2
+    100026: Pantherskeleton
+    100028: PosteriorLeftLeg1
+    100030: PosteriorLeftLeg2
+    100032: PosteriorLeftPaw2
+    100034: PosteriorLeftPaw2_end
+    100036: PosteriorRight Leg2
+    100038: PosteriorRightLeg1
+    100040: PosteriorRightPaw2
+    100042: PosteriorRightPaw2_end
+    100044: Right Leg1
+    100046: Right Leg2
+    100048: RightPaw1
+    100050: RightPaw1_end
+    100052: Tail1
+    100054: Tail2
+    100056: Tail3
+    100058: Tail3_end
+    400000: Body
+    400002: Head
+    400004: LeftLeg1
+    400006: LeftLeg2
+    400008: LeftPaw1
+    400010: LeftPaw1_end
+    400012: Mouth
+    400014: Mouth_end
+    400016: Neck
+    400018: Panther
+    400020: //RootNode
+    400022: PantherLOD1
+    400024: PantherLOD2
+    400026: Pantherskeleton
+    400028: PosteriorLeftLeg1
+    400030: PosteriorLeftLeg2
+    400032: PosteriorLeftPaw2
+    400034: PosteriorLeftPaw2_end
+    400036: PosteriorRight Leg2
+    400038: PosteriorRightLeg1
+    400040: PosteriorRightPaw2
+    400042: PosteriorRightPaw2_end
+    400044: Right Leg1
+    400046: Right Leg2
+    400048: RightPaw1
+    400050: RightPaw1_end
+    400052: Tail1
+    400054: Tail2
+    400056: Tail3
+    400058: Tail3_end
+    4300000: PantherLOD1
+    4300002: PantherLOD2
+    4300004: Panther
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle
+    7400010: run
+    7400012: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Panther
+    13700002: PantherLOD1
+    13700004: PantherLOD2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: Pantherskeleton|attack
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Pantherskeleton|death
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: Pantherskeleton|eat
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: Pantherskeleton|hurt
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Pantherskeleton|idle
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Pantherskeleton|run
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Pantherskeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLOD1
+        weight: 1
+      - path: PantherLOD2
+        weight: 1
+      - path: Pantherskeleton
+        weight: 1
+      - path: Pantherskeleton/Body
+        weight: 1
+      - path: Pantherskeleton/Body/Neck
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: Pantherskeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: Pantherskeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Pantherskeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

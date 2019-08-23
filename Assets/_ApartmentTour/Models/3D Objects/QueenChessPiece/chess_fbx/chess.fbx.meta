@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 0e7d4818f6c04f64b8b981f1f6b8289b
+timeCreated: 1487018322
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Black_Horse
+    100002: Black_Horse_2
+    100004: bottomCap2
+    100006: bottomCap2 1
+    100008: bottomCap2 2
+    100010: bottomCap3
+    100012: bottomCap3 1
+    100014: bottomCap3 2
+    100016: castle:nurbsBooleanSurface2_1
+    100018: castle:nurbsBooleanSurface2_10
+    100020: castle:nurbsBooleanSurface2_11
+    100022: castle:nurbsBooleanSurface2_12
+    100024: castle:nurbsBooleanSurface2_13
+    100026: castle:nurbsBooleanSurface2_14
+    100028: castle:nurbsBooleanSurface2_15
+    100030: castle:nurbsBooleanSurface2_16
+    100032: castle:nurbsBooleanSurface2_17
+    100034: castle:nurbsBooleanSurface2_18
+    100036: castle:nurbsBooleanSurface2_19
+    100038: castle:nurbsBooleanSurface2_2
+    100040: castle:nurbsBooleanSurface2_3
+    100042: castle:nurbsBooleanSurface2_4
+    100044: castle:nurbsBooleanSurface2_5
+    100046: castle:nurbsBooleanSurface2_6
+    100048: castle:nurbsBooleanSurface2_7
+    100050: castle:nurbsBooleanSurface2_8
+    100052: castle:nurbsBooleanSurface2_9
+    100054: castle:revolvedSurface2
+    100056: //RootNode
+    100058: chess_board:topnurbsCube1
+    100060: chess_revolvedSurface10
+    100062: chess_revolvedSurface11
+    100064: chess_revolvedSurface12
+    100066: chess_revolvedSurface13
+    100068: chess_revolvedSurface14
+    100070: chess_revolvedSurface15
+    100072: chess_revolvedSurface16
+    100074: chess_revolvedSurface2
+    100076: chess_revolvedSurface3
+    100078: chess_revolvedSurface4
+    100080: chess_revolvedSurface5
+    100082: chess_revolvedSurface6
+    100084: chess_revolvedSurface7
+    100086: chess_revolvedSurface8
+    100088: chess_revolvedSurface9
+    100090: group10
+    100092: group11
+    100094: group12
+    100096: group13
+    100098: group14
+    100100: group15
+    100102: group2
+    100104: group20
+    100106: group21
+    100108: group22
+    100110: group24
+    100112: group25
+    100114: group3
+    100116: group4
+    100118: group5
+    100120: group6
+    100122: group9
+    100124: nurbsBooleanSurface2_1
+    100126: nurbsBooleanSurface2_1 1
+    100128: nurbsBooleanSurface2_1 2
+    100130: nurbsBooleanSurface2_1 3
+    100132: nurbsBooleanSurface2_1 4
+    100134: nurbsBooleanSurface2_1 5
+    100136: nurbsBooleanSurface2_10
+    100138: nurbsBooleanSurface2_10 1
+    100140: nurbsBooleanSurface2_10 2
+    100142: nurbsBooleanSurface2_11
+    100144: nurbsBooleanSurface2_11 1
+    100146: nurbsBooleanSurface2_11 2
+    100148: nurbsBooleanSurface2_12
+    100150: nurbsBooleanSurface2_12 1
+    100152: nurbsBooleanSurface2_12 2
+    100154: nurbsBooleanSurface2_13
+    100156: nurbsBooleanSurface2_13 1
+    100158: nurbsBooleanSurface2_13 2
+    100160: nurbsBooleanSurface2_14
+    100162: nurbsBooleanSurface2_14 1
+    100164: nurbsBooleanSurface2_14 2
+    100166: nurbsBooleanSurface2_15
+    100168: nurbsBooleanSurface2_15 1
+    100170: nurbsBooleanSurface2_15 2
+    100172: nurbsBooleanSurface2_16
+    100174: nurbsBooleanSurface2_16 1
+    100176: nurbsBooleanSurface2_16 2
+    100178: nurbsBooleanSurface2_17
+    100180: nurbsBooleanSurface2_17 1
+    100182: nurbsBooleanSurface2_17 2
+    100184: nurbsBooleanSurface2_18
+    100186: nurbsBooleanSurface2_18 1
+    100188: nurbsBooleanSurface2_18 2
+    100190: nurbsBooleanSurface2_19
+    100192: nurbsBooleanSurface2_19 1
+    100194: nurbsBooleanSurface2_19 2
+    100196: nurbsBooleanSurface2_2
+    100198: nurbsBooleanSurface2_2 1
+    100200: nurbsBooleanSurface2_2 2
+    100202: nurbsBooleanSurface2_2 3
+    100204: nurbsBooleanSurface2_2 4
+    100206: nurbsBooleanSurface2_2 5
+    100208: nurbsBooleanSurface2_3
+    100210: nurbsBooleanSurface2_3 1
+    100212: nurbsBooleanSurface2_3 2
+    100214: nurbsBooleanSurface2_3 3
+    100216: nurbsBooleanSurface2_3 4
+    100218: nurbsBooleanSurface2_3 5
+    100220: nurbsBooleanSurface2_4
+    100222: nurbsBooleanSurface2_4 1
+    100224: nurbsBooleanSurface2_4 2
+    100226: nurbsBooleanSurface2_4 3
+    100228: nurbsBooleanSurface2_4 4
+    100230: nurbsBooleanSurface2_4 5
+    100232: nurbsBooleanSurface2_5
+    100234: nurbsBooleanSurface2_5 1
+    100236: nurbsBooleanSurface2_5 2
+    100238: nurbsBooleanSurface2_6
+    100240: nurbsBooleanSurface2_6 1
+    100242: nurbsBooleanSurface2_6 2
+    100244: nurbsBooleanSurface2_7
+    100246: nurbsBooleanSurface2_7 1
+    100248: nurbsBooleanSurface2_7 2
+    100250: nurbsBooleanSurface2_8
+    100252: nurbsBooleanSurface2_8 1
+    100254: nurbsBooleanSurface2_8 2
+    100256: nurbsBooleanSurface2_9
+    100258: nurbsBooleanSurface2_9 1
+    100260: nurbsBooleanSurface2_9 2
+    100262: nurbsBooleanSurface3_1
+    100264: nurbsBooleanSurface3_10
+    100266: nurbsBooleanSurface3_11
+    100268: nurbsBooleanSurface3_12
+    100270: nurbsBooleanSurface3_13
+    100272: nurbsBooleanSurface3_14
+    100274: nurbsBooleanSurface3_15
+    100276: nurbsBooleanSurface3_16
+    100278: nurbsBooleanSurface3_17
+    100280: nurbsBooleanSurface3_18
+    100282: nurbsBooleanSurface3_19
+    100284: nurbsBooleanSurface3_2
+    100286: nurbsBooleanSurface3_20
+    100288: nurbsBooleanSurface3_21
+    100290: nurbsBooleanSurface3_22
+    100292: nurbsBooleanSurface3_23
+    100294: nurbsBooleanSurface3_3
+    100296: nurbsBooleanSurface3_4
+    100298: nurbsBooleanSurface3_5
+    100300: nurbsBooleanSurface3_6
+    100302: nurbsBooleanSurface3_7
+    100304: nurbsBooleanSurface3_8
+    100306: nurbsBooleanSurface3_9
+    100308: nurbsCylinder5
+    100310: nurbsCylinder5 1
+    100312: nurbsCylinder5 2
+    100314: nurbsCylinder6
+    100316: nurbsCylinder6 1
+    100318: nurbsCylinder6 2
+    100320: nurbsSphere1
+    100322: nurbsSphere1 1
+    100324: nurbsSphere1 2
+    100326: nurbsSphere1 3
+    100328: nurbsSphere1 4
+    100330: nurbsSphere2
+    100332: nurbsSphere2 1
+    100334: nurbsSphere2 2
+    100336: nurbsSphere2 3
+    100338: nurbsSphere2 4
+    100340: nurbsSphere2 5
+    100342: nurbsSphere2 6
+    100344: nurbsSphere2 7
+    100346: only_horse:bottomCap2
+    100348: only_horse:bottomCap3
+    100350: only_horse:nurbsCylinder5
+    100352: only_horse:nurbsCylinder6
+    100354: only_horse:nurbsSphere1
+    100356: only_horse:nurbsSphere2
+    100358: only_horse:revolvedSurface4
+    100360: only_horse:topCap2
+    100362: pawn_king_bishop:chess_revolvedSurface2
+    100364: pawn_king_bishop:nurbsBooleanSurface2_1
+    100366: pawn_king_bishop:nurbsBooleanSurface2_2
+    100368: pawn_king_bishop:nurbsBooleanSurface2_3
+    100370: pawn_king_bishop:nurbsBooleanSurface2_4
+    100372: pawn_king_bishop:nurbsSphere2
+    100374: queen_top:nurbsBooleanSurface3_1
+    100376: queen_top:nurbsBooleanSurface3_10
+    100378: queen_top:nurbsBooleanSurface3_11
+    100380: queen_top:nurbsBooleanSurface3_12
+    100382: queen_top:nurbsBooleanSurface3_13
+    100384: queen_top:nurbsBooleanSurface3_14
+    100386: queen_top:nurbsBooleanSurface3_15
+    100388: queen_top:nurbsBooleanSurface3_16
+    100390: queen_top:nurbsBooleanSurface3_17
+    100392: queen_top:nurbsBooleanSurface3_18
+    100394: queen_top:nurbsBooleanSurface3_19
+    100396: queen_top:nurbsBooleanSurface3_2
+    100398: queen_top:nurbsBooleanSurface3_20
+    100400: queen_top:nurbsBooleanSurface3_21
+    100402: queen_top:nurbsBooleanSurface3_22
+    100404: queen_top:nurbsBooleanSurface3_23
+    100406: queen_top:nurbsBooleanSurface3_3
+    100408: queen_top:nurbsBooleanSurface3_4
+    100410: queen_top:nurbsBooleanSurface3_5
+    100412: queen_top:nurbsBooleanSurface3_6
+    100414: queen_top:nurbsBooleanSurface3_7
+    100416: queen_top:nurbsBooleanSurface3_8
+    100418: queen_top:nurbsBooleanSurface3_9
+    100420: revolvedSurface1
+    100422: revolvedSurface2
+    100424: revolvedSurface2 1
+    100426: revolvedSurface2 2
+    100428: revolvedSurface2 3
+    100430: revolvedSurface2 4
+    100432: revolvedSurface3
+    100434: revolvedSurface4
+    100436: revolvedSurface4 1
+    100438: revolvedSurface4 2
+    100440: topCap2
+    100442: topCap2 1
+    100444: topCap2 2
+    400000: Black_Horse
+    400002: Black_Horse_2
+    400004: bottomCap2
+    400006: bottomCap2 1
+    400008: bottomCap2 2
+    400010: bottomCap3
+    400012: bottomCap3 1
+    400014: bottomCap3 2
+    400016: castle:nurbsBooleanSurface2_1
+    400018: castle:nurbsBooleanSurface2_10
+    400020: castle:nurbsBooleanSurface2_11
+    400022: castle:nurbsBooleanSurface2_12
+    400024: castle:nurbsBooleanSurface2_13
+    400026: castle:nurbsBooleanSurface2_14
+    400028: castle:nurbsBooleanSurface2_15
+    400030: castle:nurbsBooleanSurface2_16
+    400032: castle:nurbsBooleanSurface2_17
+    400034: castle:nurbsBooleanSurface2_18
+    400036: castle:nurbsBooleanSurface2_19
+    400038: castle:nurbsBooleanSurface2_2
+    400040: castle:nurbsBooleanSurface2_3
+    400042: castle:nurbsBooleanSurface2_4
+    400044: castle:nurbsBooleanSurface2_5
+    400046: castle:nurbsBooleanSurface2_6
+    400048: castle:nurbsBooleanSurface2_7
+    400050: castle:nurbsBooleanSurface2_8
+    400052: castle:nurbsBooleanSurface2_9
+    400054: castle:revolvedSurface2
+    400056: //RootNode
+    400058: chess_board:topnurbsCube1
+    400060: chess_revolvedSurface10
+    400062: chess_revolvedSurface11
+    400064: chess_revolvedSurface12
+    400066: chess_revolvedSurface13
+    400068: chess_revolvedSurface14
+    400070: chess_revolvedSurface15
+    400072: chess_revolvedSurface16
+    400074: chess_revolvedSurface2
+    400076: chess_revolvedSurface3
+    400078: chess_revolvedSurface4
+    400080: chess_revolvedSurface5
+    400082: chess_revolvedSurface6
+    400084: chess_revolvedSurface7
+    400086: chess_revolvedSurface8
+    400088: chess_revolvedSurface9
+    400090: group10
+    400092: group11
+    400094: group12
+    400096: group13
+    400098: group14
+    400100: group15
+    400102: group2
+    400104: group20
+    400106: group21
+    400108: group22
+    400110: group24
+    400112: group25
+    400114: group3
+    400116: group4
+    400118: group5
+    400120: group6
+    400122: group9
+    400124: nurbsBooleanSurface2_1
+    400126: nurbsBooleanSurface2_1 1
+    400128: nurbsBooleanSurface2_1 2
+    400130: nurbsBooleanSurface2_1 3
+    400132: nurbsBooleanSurface2_1 4
+    400134: nurbsBooleanSurface2_1 5
+    400136: nurbsBooleanSurface2_10
+    400138: nurbsBooleanSurface2_10 1
+    400140: nurbsBooleanSurface2_10 2
+    400142: nurbsBooleanSurface2_11
+    400144: nurbsBooleanSurface2_11 1
+    400146: nurbsBooleanSurface2_11 2
+    400148: nurbsBooleanSurface2_12
+    400150: nurbsBooleanSurface2_12 1
+    400152: nurbsBooleanSurface2_12 2
+    400154: nurbsBooleanSurface2_13
+    400156: nurbsBooleanSurface2_13 1
+    400158: nurbsBooleanSurface2_13 2
+    400160: nurbsBooleanSurface2_14
+    400162: nurbsBooleanSurface2_14 1
+    400164: nurbsBooleanSurface2_14 2
+    400166: nurbsBooleanSurface2_15
+    400168: nurbsBooleanSurface2_15 1
+    400170: nurbsBooleanSurface2_15 2
+    400172: nurbsBooleanSurface2_16
+    400174: nurbsBooleanSurface2_16 1
+    400176: nurbsBooleanSurface2_16 2
+    400178: nurbsBooleanSurface2_17
+    400180: nurbsBooleanSurface2_17 1
+    400182: nurbsBooleanSurface2_17 2
+    400184: nurbsBooleanSurface2_18
+    400186: nurbsBooleanSurface2_18 1
+    400188: nurbsBooleanSurface2_18 2
+    400190: nurbsBooleanSurface2_19
+    400192: nurbsBooleanSurface2_19 1
+    400194: nurbsBooleanSurface2_19 2
+    400196: nurbsBooleanSurface2_2
+    400198: nurbsBooleanSurface2_2 1
+    400200: nurbsBooleanSurface2_2 2
+    400202: nurbsBooleanSurface2_2 3
+    400204: nurbsBooleanSurface2_2 4
+    400206: nurbsBooleanSurface2_2 5
+    400208: nurbsBooleanSurface2_3
+    400210: nurbsBooleanSurface2_3 1
+    400212: nurbsBooleanSurface2_3 2
+    400214: nurbsBooleanSurface2_3 3
+    400216: nurbsBooleanSurface2_3 4
+    400218: nurbsBooleanSurface2_3 5
+    400220: nurbsBooleanSurface2_4
+    400222: nurbsBooleanSurface2_4 1
+    400224: nurbsBooleanSurface2_4 2
+    400226: nurbsBooleanSurface2_4 3
+    400228: nurbsBooleanSurface2_4 4
+    400230: nurbsBooleanSurface2_4 5
+    400232: nurbsBooleanSurface2_5
+    400234: nurbsBooleanSurface2_5 1
+    400236: nurbsBooleanSurface2_5 2
+    400238: nurbsBooleanSurface2_6
+    400240: nurbsBooleanSurface2_6 1
+    400242: nurbsBooleanSurface2_6 2
+    400244: nurbsBooleanSurface2_7
+    400246: nurbsBooleanSurface2_7 1
+    400248: nurbsBooleanSurface2_7 2
+    400250: nurbsBooleanSurface2_8
+    400252: nurbsBooleanSurface2_8 1
+    400254: nurbsBooleanSurface2_8 2
+    400256: nurbsBooleanSurface2_9
+    400258: nurbsBooleanSurface2_9 1
+    400260: nurbsBooleanSurface2_9 2
+    400262: nurbsBooleanSurface3_1
+    400264: nurbsBooleanSurface3_10
+    400266: nurbsBooleanSurface3_11
+    400268: nurbsBooleanSurface3_12
+    400270: nurbsBooleanSurface3_13
+    400272: nurbsBooleanSurface3_14
+    400274: nurbsBooleanSurface3_15
+    400276: nurbsBooleanSurface3_16
+    400278: nurbsBooleanSurface3_17
+    400280: nurbsBooleanSurface3_18
+    400282: nurbsBooleanSurface3_19
+    400284: nurbsBooleanSurface3_2
+    400286: nurbsBooleanSurface3_20
+    400288: nurbsBooleanSurface3_21
+    400290: nurbsBooleanSurface3_22
+    400292: nurbsBooleanSurface3_23
+    400294: nurbsBooleanSurface3_3
+    400296: nurbsBooleanSurface3_4
+    400298: nurbsBooleanSurface3_5
+    400300: nurbsBooleanSurface3_6
+    400302: nurbsBooleanSurface3_7
+    400304: nurbsBooleanSurface3_8
+    400306: nurbsBooleanSurface3_9
+    400308: nurbsCylinder5
+    400310: nurbsCylinder5 1
+    400312: nurbsCylinder5 2
+    400314: nurbsCylinder6
+    400316: nurbsCylinder6 1
+    400318: nurbsCylinder6 2
+    400320: nurbsSphere1
+    400322: nurbsSphere1 1
+    400324: nurbsSphere1 2
+    400326: nurbsSphere1 3
+    400328: nurbsSphere1 4
+    400330: nurbsSphere2
+    400332: nurbsSphere2 1
+    400334: nurbsSphere2 2
+    400336: nurbsSphere2 3
+    400338: nurbsSphere2 4
+    400340: nurbsSphere2 5
+    400342: nurbsSphere2 6
+    400344: nurbsSphere2 7
+    400346: only_horse:bottomCap2
+    400348: only_horse:bottomCap3
+    400350: only_horse:nurbsCylinder5
+    400352: only_horse:nurbsCylinder6
+    400354: only_horse:nurbsSphere1
+    400356: only_horse:nurbsSphere2
+    400358: only_horse:revolvedSurface4
+    400360: only_horse:topCap2
+    400362: pawn_king_bishop:chess_revolvedSurface2
+    400364: pawn_king_bishop:nurbsBooleanSurface2_1
+    400366: pawn_king_bishop:nurbsBooleanSurface2_2
+    400368: pawn_king_bishop:nurbsBooleanSurface2_3
+    400370: pawn_king_bishop:nurbsBooleanSurface2_4
+    400372: pawn_king_bishop:nurbsSphere2
+    400374: queen_top:nurbsBooleanSurface3_1
+    400376: queen_top:nurbsBooleanSurface3_10
+    400378: queen_top:nurbsBooleanSurface3_11
+    400380: queen_top:nurbsBooleanSurface3_12
+    400382: queen_top:nurbsBooleanSurface3_13
+    400384: queen_top:nurbsBooleanSurface3_14
+    400386: queen_top:nurbsBooleanSurface3_15
+    400388: queen_top:nurbsBooleanSurface3_16
+    400390: queen_top:nurbsBooleanSurface3_17
+    400392: queen_top:nurbsBooleanSurface3_18
+    400394: queen_top:nurbsBooleanSurface3_19
+    400396: queen_top:nurbsBooleanSurface3_2
+    400398: queen_top:nurbsBooleanSurface3_20
+    400400: queen_top:nurbsBooleanSurface3_21
+    400402: queen_top:nurbsBooleanSurface3_22
+    400404: queen_top:nurbsBooleanSurface3_23
+    400406: queen_top:nurbsBooleanSurface3_3
+    400408: queen_top:nurbsBooleanSurface3_4
+    400410: queen_top:nurbsBooleanSurface3_5
+    400412: queen_top:nurbsBooleanSurface3_6
+    400414: queen_top:nurbsBooleanSurface3_7
+    400416: queen_top:nurbsBooleanSurface3_8
+    400418: queen_top:nurbsBooleanSurface3_9
+    400420: revolvedSurface1
+    400422: revolvedSurface2
+    400424: revolvedSurface2 1
+    400426: revolvedSurface2 2
+    400428: revolvedSurface2 3
+    400430: revolvedSurface2 4
+    400432: revolvedSurface3
+    400434: revolvedSurface4
+    400436: revolvedSurface4 1
+    400438: revolvedSurface4 2
+    400440: topCap2
+    400442: topCap2 1
+    400444: topCap2 2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
